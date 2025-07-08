@@ -44,9 +44,8 @@ Includes board management, thread creation, replies, reporting system, paginatio
 
 ## 🚀 Installation
 
-1. Copy the `forum/` folder into your Axora `/plugins/` directory.
-2. Import the SQL file located at `sql/forum_plugin_schema.sql` into your database.
-3. Ensure the plugin is enabled:
+1. Copy the `forum/` and admin/ folder into your Axora `/plugins/` directory.
+2. Ensure the plugin is enabled:
 ```json
 {
   "forum": {
